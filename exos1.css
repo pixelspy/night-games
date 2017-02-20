@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css?family=Rajdhani');
+
+body{
+  font-family: "Rajdhani";
+}
+
+*{
+  margin: 0;
+}
+
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+#logo-title h1{
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+#logo-title h1:hover{
+  opacity: 0.5;
+}
+
+.menu-hamburger{
+  margin-right: 50px;
+}
+
+div .menu-bars {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.under-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+  text-align: center;
+  background-color: #e2e2e2;
+  height: 400px;
+}
+
+#main-book{
+  background-color: black;
+  color: white;
+  height: 800px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#font-size-main{
+  font-size: 80px;
+}
+
+#main-book-text{
+  line-height: 2;
+}
+
+button{
+  margin-top: 10px;
+  height: 50px;
+  width: 170px;
+  font-size: 18px;
+}
+
+button:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  transition: 0.8s;
+
+}
+
+img{
+  height: 400px;
+}
