@@ -1,0 +1,47 @@
+body{
+ margin: 0;
+ display: flex;
+ flex-direction: column;
+  }
+
+/*header{
+  background-color: rgb(69, 241, 162);
+  height: 10vh;
+  position: absolute;
+  width: 100%;
+}*/
+.demo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(135, 255, 17);
+  position: absolute;
+
+}
+.logo{
+  /*in order tween the left or top properties of an element,
+  it must have postion set to absolute,relative or fixed*/
+  width: 200px;
+}
+
+
+
+.boxes{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  /*background-color: rgb(171, 179, 187);*/
+  padding: 20px;
+  margin: 20px;
+
+}
+.box{
+  padding: 20px;
+  margin: 20px;
+}
+
+h1{
+  color: black;
+}
