@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  height: 400vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+img{
+  margin-top: 100vh;
+  opacity: 0;
+  transition: all 600ms ease-in;
+}
+
+.js-geo1-animate{
+  opacity: 1;
+  animation: geo1-jiggle 250ms linear;
+}
+
+@keyframes geo1-jiggle {
+  0% {
+    transform: rotate(0);
+  }
+  33% {
+    transform: rotate(15deg);
+  }
+  66% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
